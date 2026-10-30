@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "home",
+    "title": "Home",
+    "content": "[cfr_page_content page=\"home\"]"
+  },
+  {
+    "slug": "about",
+    "title": "About",
+    "content": "[cfr_page_content page=\"about\"]"
+  },
+  {
+    "slug": "faq",
+    "title": "FAQ",
+    "content": "[cfr_page_content page=\"faq\"]"
+  },
+  {
+    "slug": "contact",
+    "title": "Contact",
+    "content": "[cfr_page_content page=\"contact\"]"
+  },
+  {
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "content": "[cfr_page_content page=\"privacy-policy\"]"
+  },
+  {
+    "slug": "terms-of-use",
+    "title": "Terms of Use",
+    "content": "[cfr_page_content page=\"terms-of-use\"]"
+  }
+]

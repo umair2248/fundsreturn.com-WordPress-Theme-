@@ -1,0 +1,10 @@
+# QA browser profiles, screenshots and scratch scripts
+.qa/
+
+# Built theme packages
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+node_modules/

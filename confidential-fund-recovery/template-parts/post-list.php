@@ -1,0 +1,4 @@
+<?php if ( have_posts() ) : ?><div class="post-grid"><?php while ( have_posts() ) : the_post(); ?>
+<article <?php post_class( 'post-card' ); ?>><?php if ( has_post_thumbnail() ) : ?><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium_large' ); ?></a><?php endif; ?><p class="eyebrow"><?php echo esc_html( get_the_date() ); ?></p><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2><?php the_excerpt(); ?><a class="text-link" href="<?php the_permalink(); ?>"><?php esc_html_e( 'Read more', 'confidential-fund-recovery' ); ?> <span class="screen-reader-text"><?php the_title(); ?></span> <?php echo cfr_arrow(); ?></a></article>
+<?php endwhile; ?></div><?php the_posts_pagination(); ?>
+<?php else : ?><p><?php esc_html_e( 'No content was found.', 'confidential-fund-recovery' ); ?></p><?php get_search_form(); endif; ?>

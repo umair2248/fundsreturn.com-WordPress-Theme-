@@ -1,0 +1,280 @@
+{
+  "language": "en",
+  "headings": [
+    "Recover Your Stolen Funds with Legal and Forensic Authority.",
+    "Following the financial evidence",
+    "Technology informed. Human reviewed.",
+    "Investigating complex financial fraud",
+    "Cryptocurrency & Digital Assets",
+    "Platform & Account Investigation",
+    "Financial Scheme Investigation",
+    "Payment Fraud & Unauthorized Transfers",
+    "Corporate & Institutional Losses",
+    "Rug Pulls & Smart Contract Exploitation",
+    "Not certain which category applies?",
+    "A structured path from evidence to action",
+    "Connecting fragmented information",
+    "Case-specific financial investigation",
+    "Begin with the available facts",
+    "An assessment before formal action",
+    "Protection of sensitive case information",
+    "Following the transaction trail",
+    "Clear findings. Considered next steps.",
+    "Submit your case for confidential review"
+  ],
+  "ui": {
+    "site_title": "FUNDS RETURN | AI-Assisted Financial Investigation",
+    "home": "Home",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "nav": "Main navigation",
+    "footer_nav": "Navigation",
+    "languages": "Choose language",
+    "brand_line": "Financial investigation. Evidence in context.",
+    "description": "AI-assisted investigation · Financial forensics · Asset tracing",
+    "assess": "Request a case assessment",
+    "evidence": "Evidence",
+    "analysis": "Analysis",
+    "review": "Human review",
+    "investigation": "The investigative approach",
+    "services": "Areas of investigation",
+    "notice": "DISCLAIMER",
+    "details": "Contact details",
+    "hours": "Business hours",
+    "social": "Social links",
+    "rights": "All rights reserved.",
+    "legal_nav": "Legal information",
+    "legal_pending": "Legal content pending",
+    "legal_body": "[LEGAL CONTENT PLACEHOLDER] Approved content has not been supplied. The site owner must replace this editable placeholder with reviewed content appropriate to the firm and applicable jurisdictions before public launch.",
+    "step1": "Evidence review",
+    "step2": "Transaction tracing",
+    "step3": "Relationship mapping",
+    "step4": "Recovery procedures",
+    "step5": "Resolution",
+    "q1": "Can AI guarantee recovery?",
+    "q2": "Does technology replace investigator judgment?",
+    "q3": "What information is examined?",
+    "q4": "What happens before formal engagement?",
+    "q5": "How is sensitive information handled?",
+    "q6": "Do previous results guarantee my outcome?",
+    "form_title": "Begin with the essential facts.",
+    "form_help": "Share basic contact details and a brief summary. Do not include passwords, banking login details, full account numbers, seed phrases or private keys. This form does not accept attachments.",
+    "form_notice": "Recovery cannot be guaranteed. Submitting this form does not establish a client relationship.",
+    "name": "Your name",
+    "email": "Email address",
+    "phone": "Telephone (optional)",
+    "summary": "Brief case summary",
+    "summary_help": "20–4,000 characters. Describe what happened and how funds were transferred. Keep sensitive records out of this form.",
+    "acknowledge": "I request contact about this case and understand that recovery cannot be guaranteed.",
+    "privacy_link": "Read the Privacy Policy",
+    "empty": "Leave this field empty",
+    "retry": "For privacy, previous entries are not retained. Please re-enter your details.",
+    "sent": "Your request was accepted for email delivery. This does not confirm receipt or formal engagement.",
+    "invalid": "Your request was not sent. Enter your name, a valid email, a summary of 20–4,000 characters and the acknowledgement.",
+    "expired": "Your request was not sent because the security check expired. Refresh this page and try again.",
+    "limited": "Your request was not sent. Please wait a few minutes before submitting again.",
+    "failed": "Email could not be sent. Try again later or use the firm’s verified contact details.",
+    "not_found": "This page could not be found.",
+    "back_home": "Return to Home"
+  },
+  "blocks": [
+    [
+      "We help people and businesses pursue the recovery of stolen funds through forensic investigation, asset tracing and evidence-led case support. We establish how funds moved, identify relevant parties and assess applicable legal recovery routes. AI supports the analysis; investigators and qualified legal professionals guide the next steps where appropriate.",
+      "Request a Confidential Case Assessment",
+      "Review Our Recovery Process",
+      "Stolen Funds Recovery · Financial Forensics · Legal Case Support"
+    ],
+    [
+      "Financial fraud rarely follows a single transaction path. Funds may move through multiple accounts, intermediaries, exchanges, wallets and jurisdictions before the loss is identified.",
+      "Our investigation combines AI-assisted financial analysis, transaction intelligence, blockchain forensics and human investigative expertise to examine these relationships more efficiently and establish where available evidence may lead.",
+      "Advanced analytical systems examine transaction data, payment relationships and available financial records to identify patterns, connections and anomalies that may require further investigation.",
+      "AI-assisted blockchain analysis helps process large volumes of on-chain activity, identify related wallet behaviour and reconstruct identifiable asset movements associated with fraudulent activity.",
+      "Automated analysis can help connect platform information, payment records, account activity and communications to establish a clearer picture of how a fraudulent scheme operated.",
+      "Transaction data can be analysed to identify payment routes, recurring relationships, intermediary activity and other patterns relevant to the investigation.",
+      "Request a Confidential Case Assessment"
+    ],
+    [
+      "Technology can process large amounts of information, but financial recovery still requires professional judgment, evidence assessment and an understanding of the applicable legal and financial framework.",
+      "Our approach combines intelligent data analysis with forensic investigation and human review to establish what the available evidence actually supports.",
+      "Intelligent analytical systems process transaction records, financial documentation, digital-asset activity and related evidence to identify relevant patterns and relationships for investigator review.",
+      "AI-generated analytical findings are considered within the applicable legal, regulatory and procedural requirements of the relevant jurisdiction. Technology does not replace legal authority or professional judgment.",
+      "Sensitive financial and personal information is handled through appropriate confidentiality and information-security procedures throughout the investigation.",
+      "Where cases involve overseas entities, payment providers, exchanges or counterparties, analytical tools can help connect information across multiple transaction environments and jurisdictions.",
+      "View Professional & Compliance Information"
+    ],
+    [
+      "Modern financial fraud can generate thousands of transactions, fragmented records and interconnected entities. AI-assisted analysis can help investigators process this information, identify meaningful relationships and focus attention on the evidence most relevant to the case."
+    ],
+    [
+      "Focus: Blockchain Intelligence & Forensics",
+      "We analyse available blockchain data to reconstruct the movement of digital assets associated with fraudulent platforms, unauthorized transfers, token schemes and other cryptocurrency-related losses.",
+      "AI-assisted systems can process transaction relationships and large volumes of blockchain data to help identify recurring patterns, connected addresses and movement between identifiable entities.",
+      "- AI-assisted on-chain transaction analysis",
+      "- Wallet relationship mapping",
+      "- Transaction-flow reconstruction",
+      "- Exchange and intermediary identification",
+      "- Cross-chain movement analysis",
+      "- DeFi transaction investigation",
+      "Evaluate Your Case"
+    ],
+    [
+      "Focus: Financial Intelligence & Cross-Border Investigation",
+      "Fraudulent platform schemes may involve fabricated account records, misleading account information, withdrawal restrictions, additional payment demands or offshore entities.",
+      "Our analytical systems can help correlate available account records, payment information, platform data and communications to establish the structure of the loss and identify relationships requiring further investigation.",
+      "- AI-assisted transaction analysis",
+      "- Platform and entity investigation",
+      "- Payment-route mapping",
+      "- Bank and payment-provider procedures",
+      "- Regulatory complaint preparation",
+      "- Cross-border recovery coordination",
+      "Evaluate Your Case"
+    ],
+    [
+      "Focus: AI-Assisted Financial Forensics",
+      "Financial fraud can involve fabricated account activity, false financial opportunities, misleading account statements and schemes designed to obtain repeated payments.",
+      "AI-assisted analysis can help examine large volumes of financial records, identify recurring transaction patterns and connect payment relationships that may otherwise be difficult to assess manually.",
+      "- AI-assisted financial forensic analysis",
+      "- Transaction reconstruction",
+      "- Entity and payment-route mapping",
+      "- Pattern and anomaly analysis",
+      "- Evidence preparation",
+      "- Legal recovery coordination",
+      "Evaluate Your Case"
+    ],
+    [
+      "Focus: Transaction Intelligence",
+      "Fraudulent transfers may result from impersonation, social engineering, relationship-based deception or manipulated payment instructions.",
+      "Our systems can help analyse transaction histories and supporting records to identify payment relationships, recurring patterns and other relevant evidence for investigator review.",
+      "- Intelligent payment-route analysis",
+      "- Transaction relationship mapping",
+      "- Bank and payment-provider correspondence",
+      "- Digital evidence review",
+      "- Pattern and anomaly identification",
+      "- Confidential case assessment",
+      "Evaluate Your Case"
+    ],
+    [
+      "Focus: Financial Intelligence & Jurisdictional Strategy",
+      "Businesses and institutions may face substantial losses through fraudulent counterparties, unauthorized payments, executive-targeted fraud and complex international schemes.",
+      "AI-assisted financial analysis can help investigators process interconnected payment records, identify counterparties and map relationships across multiple entities and jurisdictions.",
+      "- Corporate payment investigation",
+      "- AI-assisted transaction mapping",
+      "- Counterparty relationship analysis",
+      "- Multi-jurisdictional case assessment",
+      "- Intermediary identification",
+      "- Legal recovery coordination",
+      "Evaluate Your Case"
+    ],
+    [
+      "Focus: Blockchain Intelligence & Liquidity Forensics",
+      "Digital-asset schemes can involve manipulated liquidity pools, fraudulent token launches, unauthorized contract activity or rapid movement of assets across decentralized infrastructure.",
+      "AI-assisted blockchain analysis can help process contract interactions, token movements and wallet relationships to identify patterns within complex transaction networks.",
+      "- AI-assisted DEX liquidity analysis",
+      "- Smart-contract transaction review",
+      "- Token-flow reconstruction",
+      "- Wallet relationship analysis",
+      "- Cross-chain asset tracing",
+      "- Transaction-pattern detection",
+      "Evaluate Your Case"
+    ],
+    [
+      "Financial fraud cases frequently involve more than one mechanism. A single case may include a fraudulent platform, cryptocurrency transactions, bank transfers and several jurisdictions.",
+      "Our AI-assisted analytical systems help process the available information across these different sources, while human investigators assess the findings and determine which investigative and recovery considerations are relevant.",
+      "Submit Your Case for Confidential Assessment"
+    ],
+    [
+      "Every case begins with the available facts. Our process combines AI-assisted analysis with human forensic review to establish transaction histories, identify relevant relationships and determine which recovery mechanisms may be available.",
+      "We examine transaction records, payment confirmations, account documentation, wallet information, communications and other available evidence.",
+      "AI-assisted systems can organise and structure large volumes of case information to establish the initial investigative picture.",
+      "Financial transactions and blockchain activity are analysed to reconstruct the movement of funds.",
+      "Pattern-recognition and relationship-mapping systems can help identify connected accounts, wallets, exchanges, intermediaries and recurring transaction routes for investigator review.",
+      "Relevant entities, payment routes and digital-asset movements are mapped to establish connections within the available evidence.",
+      "This creates a structured investigative view of how funds may have moved through the financial or digital-asset environment.",
+      "Where the evidence supports further action, appropriate procedures may involve financial institutions, payment providers, counterparties, regulatory channels or qualified legal professionals, depending on the case and jurisdiction.",
+      "AI supports the investigation. It does not replace legal authority, professional judgment or formal recovery procedures.",
+      "Where recovery is achieved through an applicable procedure, the return or settlement of funds is completed through the appropriate verified process.",
+      "Outcomes depend on the individual circumstances of each case and cannot be guaranteed.",
+      "Assess the Traceability of Your Funds"
+    ],
+    [
+      "The volume of information surrounding a modern financial fraud case can be substantial. Transaction histories, blockchain records, platform activity, communications and payment information may each contain pieces of the same investigation.",
+      "AI-assisted systems help process these datasets, identify relationships and surface patterns that can then be reviewed by investigators.",
+      "Identify recurring transaction behaviour, unusual payment relationships and relevant activity across available datasets.",
+      "Connect accounts, wallets, platforms, entities and transaction routes to build a clearer picture of the financial network surrounding a case.",
+      "Bring fragmented financial, transactional and blockchain information together for structured investigative analysis.",
+      "Help investigators focus on transaction paths, entities and patterns that warrant closer examination.",
+      "AI-generated findings remain subject to investigator review. Analytical output is treated as investigative information rather than proof of wrongdoing or a guarantee of recovery."
+    ],
+    [
+      "Complex financial investigations require a case-specific approach. Where client confidentiality and applicable permissions allow, selected matters may demonstrate how forensic analysis, transaction intelligence and recovery procedures have been applied.",
+      "Each case should be evaluated independently. Previous results do not establish or guarantee the outcome of another matter.",
+      "Discuss Your Case Confidentially"
+    ],
+    [
+      "If you have lost funds through a fraudulent platform, financial platform, cryptocurrency scheme, unauthorized transfer or other financial fraud, the first step is to establish the facts.",
+      "Provide the available transaction records, relevant communications, platform information and other supporting documentation. Our analytical systems can help structure and examine the available information before investigators assess whether further recovery work may be appropriate.",
+      "Request a Confidential Case Assessment"
+    ],
+    [
+      "A financial recovery matter should begin with evidence rather than assumptions.",
+      "Our assessment combines AI-assisted data analysis, transaction intelligence, blockchain investigation and human forensic review to examine how the loss occurred, how funds moved, which parties or intermediaries may be relevant and what recovery procedures may be available.",
+      "Where further work is appropriate, the proposed scope, process and applicable terms should be established before formal engagement.",
+      "Submit Your Case for Review"
+    ],
+    [
+      "Financial fraud investigations can involve personal identification, account records, transaction histories, communications and commercially sensitive information.",
+      "The use of analytical technology does not remove the need for strict information governance. Case information should be handled through appropriate confidentiality, data-protection and information-security procedures."
+    ],
+    [
+      "Financial and blockchain records can contain extensive information about the movement of funds.",
+      "Our investigative systems help process available transaction data, identify relationships and reconstruct relevant transaction paths, allowing investigators to examine complex financial movements more efficiently."
+    ],
+    [
+      "AI can identify patterns and relationships within available data, but it cannot guarantee that funds will be recovered.",
+      "The purpose of the initial assessment is to establish what the evidence supports, which recovery mechanisms may be relevant and what limitations apply.",
+      "AI-generated analytical findings are reviewed within the broader investigative context before any recovery strategy is considered."
+    ],
+    [
+      "Provide the essential facts surrounding the financial loss, together with the transaction information and supporting evidence available to you.",
+      "Our AI-assisted investigation systems can help structure complex case information, identify relevant transaction relationships and support the forensic assessment of the available evidence.",
+      "Request a Confidential Case Assessment"
+    ]
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "content": "<section id=\"hero\" class=\"home-hero\"><div class=\"hero-copy\"><p class=\"eyebrow\">Stolen Funds Recovery · Financial Forensics · Legal Case Support</p><h1>Recover Your Stolen Funds with Legal and Forensic Authority.</h1><p>We help people and businesses pursue the recovery of stolen funds through forensic investigation, asset tracing and evidence-led case support. We establish how funds moved, identify relevant parties and assess applicable legal recovery routes. AI supports the analysis; investigators and qualified legal professionals guide the next steps where appropriate.</p><div class=\"button-row\"><a class=\"button\" href=\"{{contact}}#case-form\">Request a Confidential Case Assessment [cfr_arrow]</a><a class=\"button button-outline\" href=\"{{home}}#recovery-process\">Review Our Recovery Process [cfr_arrow]</a></div><p class=\"hero-assurance\">Stolen Funds Recovery · Financial Forensics · Legal Case Support</p></div><div class=\"evidence-graphic\"><p class=\"eyebrow\">The investigative approach</p>[cfr_image name=\"hero\"]<ol><li>Evidence</li><li>Analysis</li><li>Human review</li></ol></div></section><section id=\"financial-investigation\" data-home-section=\"1\" class=\"home-section editorial-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">01</span><h2>Following the financial evidence</h2></div><div class=\"section-copy\"><p>Financial fraud rarely follows a single transaction path. Funds may move through multiple accounts, intermediaries, exchanges, wallets and jurisdictions before the loss is identified.</p><p>Our investigation combines AI-assisted financial analysis, transaction intelligence, blockchain forensics and human investigative expertise to examine these relationships more efficiently and establish where available evidence may lead.</p></div><div class=\"analysis-list\"><article><span aria-hidden=\"true\">01</span><p>Advanced analytical systems examine transaction data, payment relationships and available financial records to identify patterns, connections and anomalies that may require further investigation.</p></article><article><span aria-hidden=\"true\">02</span><p>AI-assisted blockchain analysis helps process large volumes of on-chain activity, identify related wallet behaviour and reconstruct identifiable asset movements associated with fraudulent activity.</p></article><article><span aria-hidden=\"true\">03</span><p>Automated analysis can help connect platform information, payment records, account activity and communications to establish a clearer picture of how a fraudulent scheme operated.</p></article><article><span aria-hidden=\"true\">04</span><p>Transaction data can be analysed to identify payment routes, recurring relationships, intermediary activity and other patterns relevant to the investigation.</p></article></div><a class=\"button\" href=\"{{contact}}#case-form\">Request a Confidential Case Assessment [cfr_arrow]</a></div></section><section id=\"professional-standards\" data-home-section=\"2\" class=\"home-section dark-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">02</span><h2>Technology informed. Human reviewed.</h2></div><div class=\"section-copy\"><p>Technology can process large amounts of information, but financial recovery still requires professional judgment, evidence assessment and an understanding of the applicable legal and financial framework.</p><p>Our approach combines intelligent data analysis with forensic investigation and human review to establish what the available evidence actually supports.</p></div><div class=\"analysis-list\"><article><span aria-hidden=\"true\">01</span><p>Intelligent analytical systems process transaction records, financial documentation, digital-asset activity and related evidence to identify relevant patterns and relationships for investigator review.</p></article><article><span aria-hidden=\"true\">02</span><p>AI-generated analytical findings are considered within the applicable legal, regulatory and procedural requirements of the relevant jurisdiction. Technology does not replace legal authority or professional judgment.</p></article><article><span aria-hidden=\"true\">03</span><p>Sensitive financial and personal information is handled through appropriate confidentiality and information-security procedures throughout the investigation.</p></article><article><span aria-hidden=\"true\">04</span><p>Where cases involve overseas entities, payment providers, exchanges or counterparties, analytical tools can help connect information across multiple transaction environments and jurisdictions.</p></article></div><a class=\"button\" href=\"{{about}}\">View Professional &amp; Compliance Information [cfr_arrow]</a></div></section><section id=\"expertise\" data-home-section=\"3\" class=\"home-section highlight-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">03</span><h2>Investigating complex financial fraud</h2></div><div class=\"section-copy\"><p>Modern financial fraud can generate thousands of transactions, fragmented records and interconnected entities. AI-assisted analysis can help investigators process this information, identify meaningful relationships and focus attention on the evidence most relevant to the case.</p></div></div></section><section id=\"cryptocurrency\" data-home-section=\"4\" class=\"home-section service-editorial service-0\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">04</span><h2>Cryptocurrency &amp; Digital Assets</h2>[cfr_image name=\"blockchain\"]</div><div class=\"service-copy\"><p class=\"service-focus\">Focus: Blockchain Intelligence &amp; Forensics</p><p>We analyse available blockchain data to reconstruct the movement of digital assets associated with fraudulent platforms, unauthorized transfers, token schemes and other cryptocurrency-related losses.</p><p>AI-assisted systems can process transaction relationships and large volumes of blockchain data to help identify recurring patterns, connected addresses and movement between identifiable entities.</p><ul class=\"check-list\"><li>AI-assisted on-chain transaction analysis</li><li>Wallet relationship mapping</li><li>Transaction-flow reconstruction</li><li>Exchange and intermediary identification</li><li>Cross-chain movement analysis</li><li>DeFi transaction investigation</li></ul><a class=\"button\" href=\"{{contact}}#case-form\">Evaluate Your Case [cfr_arrow]</a></div></div></section><section id=\"brokers\" data-home-section=\"5\" class=\"home-section service-editorial service-1\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">05</span><h2>Platform &amp; Account Investigation</h2>[cfr_image name=\"platform\"]</div><div class=\"service-copy\"><p class=\"service-focus\">Focus: Financial Intelligence &amp; Cross-Border Investigation</p><p>Fraudulent platform schemes may involve fabricated account records, misleading account information, withdrawal restrictions, additional payment demands or offshore entities.</p><p>Our analytical systems can help correlate available account records, payment information, platform data and communications to establish the structure of the loss and identify relationships requiring further investigation.</p><ul class=\"check-list\"><li>AI-assisted transaction analysis</li><li>Platform and entity investigation</li><li>Payment-route mapping</li><li>Bank and payment-provider procedures</li><li>Regulatory complaint preparation</li><li>Cross-border recovery coordination</li></ul><a class=\"button\" href=\"{{contact}}#case-form\">Evaluate Your Case [cfr_arrow]</a></div></div></section><section id=\"investment\" data-home-section=\"6\" class=\"home-section service-editorial service-0\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">06</span><h2>Financial Scheme Investigation</h2></div><div class=\"service-copy\"><p class=\"service-focus\">Focus: AI-Assisted Financial Forensics</p><p>Financial fraud can involve fabricated account activity, false financial opportunities, misleading account statements and schemes designed to obtain repeated payments.</p><p>AI-assisted analysis can help examine large volumes of financial records, identify recurring transaction patterns and connect payment relationships that may otherwise be difficult to assess manually.</p><ul class=\"check-list\"><li>AI-assisted financial forensic analysis</li><li>Transaction reconstruction</li><li>Entity and payment-route mapping</li><li>Pattern and anomaly analysis</li><li>Evidence preparation</li><li>Legal recovery coordination</li></ul><a class=\"button\" href=\"{{contact}}#case-form\">Evaluate Your Case [cfr_arrow]</a></div></div></section><section id=\"payment\" data-home-section=\"7\" class=\"home-section service-editorial service-1\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">07</span><h2>Payment Fraud &amp; Unauthorized Transfers</h2>[cfr_image name=\"payments\"]</div><div class=\"service-copy\"><p class=\"service-focus\">Focus: Transaction Intelligence</p><p>Fraudulent transfers may result from impersonation, social engineering, relationship-based deception or manipulated payment instructions.</p><p>Our systems can help analyse transaction histories and supporting records to identify payment relationships, recurring patterns and other relevant evidence for investigator review.</p><ul class=\"check-list\"><li>Intelligent payment-route analysis</li><li>Transaction relationship mapping</li><li>Bank and payment-provider correspondence</li><li>Digital evidence review</li><li>Pattern and anomaly identification</li><li>Confidential case assessment</li></ul><a class=\"button\" href=\"{{contact}}#case-form\">Evaluate Your Case [cfr_arrow]</a></div></div></section><section id=\"corporate\" data-home-section=\"8\" class=\"home-section service-editorial service-0\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">08</span><h2>Corporate &amp; Institutional Losses</h2>[cfr_image name=\"evidence\"]</div><div class=\"service-copy\"><p class=\"service-focus\">Focus: Financial Intelligence &amp; Jurisdictional Strategy</p><p>Businesses and institutions may face substantial losses through fraudulent counterparties, unauthorized payments, executive-targeted fraud and complex international schemes.</p><p>AI-assisted financial analysis can help investigators process interconnected payment records, identify counterparties and map relationships across multiple entities and jurisdictions.</p><ul class=\"check-list\"><li>Corporate payment investigation</li><li>AI-assisted transaction mapping</li><li>Counterparty relationship analysis</li><li>Multi-jurisdictional case assessment</li><li>Intermediary identification</li><li>Legal recovery coordination</li></ul><a class=\"button\" href=\"{{contact}}#case-form\">Evaluate Your Case [cfr_arrow]</a></div></div></section><section id=\"smart-contract\" data-home-section=\"9\" class=\"home-section service-editorial service-1\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">09</span><h2>Rug Pulls &amp; Smart Contract Exploitation</h2></div><div class=\"service-copy\"><p class=\"service-focus\">Focus: Blockchain Intelligence &amp; Liquidity Forensics</p><p>Digital-asset schemes can involve manipulated liquidity pools, fraudulent token launches, unauthorized contract activity or rapid movement of assets across decentralized infrastructure.</p><p>AI-assisted blockchain analysis can help process contract interactions, token movements and wallet relationships to identify patterns within complex transaction networks.</p><ul class=\"check-list\"><li>AI-assisted DEX liquidity analysis</li><li>Smart-contract transaction review</li><li>Token-flow reconstruction</li><li>Wallet relationship analysis</li><li>Cross-chain asset tracing</li><li>Transaction-pattern detection</li></ul><a class=\"button\" href=\"{{contact}}#case-form\">Evaluate Your Case [cfr_arrow]</a></div></div></section><section id=\"case-assessment\" data-home-section=\"10\" class=\"home-section highlight-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">10</span><h2>Not certain which category applies?</h2></div><div class=\"section-copy\"><p>Financial fraud cases frequently involve more than one mechanism. A single case may include a fraudulent platform, cryptocurrency transactions, bank transfers and several jurisdictions.</p><p>Our AI-assisted analytical systems help process the available information across these different sources, while human investigators assess the findings and determine which investigative and recovery considerations are relevant.</p><a class=\"button\" href=\"{{contact}}#case-form\">Submit Your Case for Confidential Assessment [cfr_arrow]</a></div></div></section><section id=\"recovery-process\" data-home-section=\"11\" class=\"home-section dark-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">11</span><h2>A structured path from evidence to action</h2></div><div class=\"process-intro\"><p>Every case begins with the available facts. Our process combines AI-assisted analysis with human forensic review to establish transaction histories, identify relevant relationships and determine which recovery mechanisms may be available.</p></div><ol class=\"process-list\"><li><h3>Evidence review</h3><p>We examine transaction records, payment confirmations, account documentation, wallet information, communications and other available evidence.</p><p>AI-assisted systems can organise and structure large volumes of case information to establish the initial investigative picture.</p></li><li><h3>Transaction tracing</h3><p>Financial transactions and blockchain activity are analysed to reconstruct the movement of funds.</p><p>Pattern-recognition and relationship-mapping systems can help identify connected accounts, wallets, exchanges, intermediaries and recurring transaction routes for investigator review.</p></li><li><h3>Relationship mapping</h3><p>Relevant entities, payment routes and digital-asset movements are mapped to establish connections within the available evidence.</p><p>This creates a structured investigative view of how funds may have moved through the financial or digital-asset environment.</p></li><li><h3>Recovery procedures</h3><p>Where the evidence supports further action, appropriate procedures may involve financial institutions, payment providers, counterparties, regulatory channels or qualified legal professionals, depending on the case and jurisdiction.</p><p>AI supports the investigation. It does not replace legal authority, professional judgment or formal recovery procedures.</p></li><li><h3>Resolution</h3><p>Where recovery is achieved through an applicable procedure, the return or settlement of funds is completed through the appropriate verified process.</p><p>Outcomes depend on the individual circumstances of each case and cannot be guaranteed.</p></li></ol><a class=\"button\" href=\"{{contact}}#case-form\">Assess the Traceability of Your Funds [cfr_arrow]</a></div></section><section id=\"transaction-intelligence\" data-home-section=\"12\" class=\"home-section editorial-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">12</span><h2>Connecting fragmented information</h2></div>[cfr_image name=\"evidence\"]<div class=\"section-copy\"><p>The volume of information surrounding a modern financial fraud case can be substantial. Transaction histories, blockchain records, platform activity, communications and payment information may each contain pieces of the same investigation.</p><p>AI-assisted systems help process these datasets, identify relationships and surface patterns that can then be reviewed by investigators.</p></div><div class=\"evidence-panels\"><article><span aria-hidden=\"true\">01</span><p>Identify recurring transaction behaviour, unusual payment relationships and relevant activity across available datasets.</p></article><article><span aria-hidden=\"true\">02</span><p>Connect accounts, wallets, platforms, entities and transaction routes to build a clearer picture of the financial network surrounding a case.</p></article><article><span aria-hidden=\"true\">03</span><p>Bring fragmented financial, transactional and blockchain information together for structured investigative analysis.</p></article><article><span aria-hidden=\"true\">04</span><p>Help investigators focus on transaction paths, entities and patterns that warrant closer examination.</p></article></div><aside class=\"review-note\"><p>AI-generated findings remain subject to investigator review. Analytical output is treated as investigative information rather than proof of wrongdoing or a guarantee of recovery.</p></aside></div></section><section id=\"case-experience\" data-home-section=\"13\" class=\"home-section editorial-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">13</span><h2>Case-specific financial investigation</h2></div><div class=\"section-copy\"><p>Complex financial investigations require a case-specific approach. Where client confidentiality and applicable permissions allow, selected matters may demonstrate how forensic analysis, transaction intelligence and recovery procedures have been applied.</p><p>Each case should be evaluated independently. Previous results do not establish or guarantee the outcome of another matter.</p><a class=\"button\" href=\"{{contact}}#case-form\">Discuss Your Case Confidentially [cfr_arrow]</a></div></div></section><section id=\"case-review\" data-home-section=\"14\" class=\"home-section highlight-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">14</span><h2>Begin with the available facts</h2>[cfr_image name=\"review\"]</div><div class=\"section-copy\"><p>If you have lost funds through a fraudulent platform, financial platform, cryptocurrency scheme, unauthorized transfer or other financial fraud, the first step is to establish the facts.</p><p>Provide the available transaction records, relevant communications, platform information and other supporting documentation. Our analytical systems can help structure and examine the available information before investigators assess whether further recovery work may be appropriate.</p><a class=\"button\" href=\"{{contact}}#case-form\">Request a Confidential Case Assessment [cfr_arrow]</a></div></div></section><section id=\"consultation\" data-home-section=\"15\" class=\"home-section editorial-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">15</span><h2>An assessment before formal action</h2>[cfr_image name=\"guidance\"]</div><div class=\"section-copy\"><p>A financial recovery matter should begin with evidence rather than assumptions.</p><p>Our assessment combines AI-assisted data analysis, transaction intelligence, blockchain investigation and human forensic review to examine how the loss occurred, how funds moved, which parties or intermediaries may be relevant and what recovery procedures may be available.</p><p>Where further work is appropriate, the proposed scope, process and applicable terms should be established before formal engagement.</p><a class=\"button\" href=\"{{contact}}#case-form\">Submit Your Case for Review [cfr_arrow]</a></div></div></section><section id=\"confidentiality\" data-home-section=\"16\" class=\"home-section editorial-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">16</span><h2>Protection of sensitive case information</h2></div><div class=\"section-copy\"><p>Financial fraud investigations can involve personal identification, account records, transaction histories, communications and commercially sensitive information.</p><p>The use of analytical technology does not remove the need for strict information governance. Case information should be handled through appropriate confidentiality, data-protection and information-security procedures.</p></div></div></section><section id=\"asset-tracing\" data-home-section=\"17\" class=\"home-section editorial-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">17</span><h2>Following the transaction trail</h2>[cfr_image name=\"flows\"]</div><div class=\"section-copy\"><p>Financial and blockchain records can contain extensive information about the movement of funds.</p><p>Our investigative systems help process available transaction data, identify relationships and reconstruct relevant transaction paths, allowing investigators to examine complex financial movements more efficiently.</p></div></div></section><section id=\"transparent-assessment\" data-home-section=\"18\" class=\"home-section dark-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">18</span><h2>Clear findings. Considered next steps.</h2></div><div class=\"section-copy\"><p>AI can identify patterns and relationships within available data, but it cannot guarantee that funds will be recovered.</p><p>The purpose of the initial assessment is to establish what the evidence supports, which recovery mechanisms may be relevant and what limitations apply.</p><p>AI-generated analytical findings are reviewed within the broader investigative context before any recovery strategy is considered.</p></div></div></section><section id=\"contact\" data-home-section=\"19\" class=\"home-section highlight-section\"><div class=\"section-shell\"><div class=\"section-title\"><span class=\"section-index\">19</span><h2>Submit your case for confidential review</h2></div><div class=\"section-copy\"><p>Provide the essential facts surrounding the financial loss, together with the transaction information and supporting evidence available to you.</p><p>Our AI-assisted investigation systems can help structure complex case information, identify relevant transaction relationships and support the forensic assessment of the available evidence.</p><a class=\"button\" href=\"{{contact}}#case-form\">Request a Confidential Case Assessment [cfr_arrow]</a></div></div></section>"
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "content": "[cfr_image name=\"evidence\"]<section class=\"inner-editorial\"><h2>Technology informed. Human reviewed.</h2><p>Technology can process large amounts of information, but financial recovery still requires professional judgment, evidence assessment and an understanding of the applicable legal and financial framework.</p><p>Our approach combines intelligent data analysis with forensic investigation and human review to establish what the available evidence actually supports.</p><p>Intelligent analytical systems process transaction records, financial documentation, digital-asset activity and related evidence to identify relevant patterns and relationships for investigator review.</p><p>AI-generated analytical findings are considered within the applicable legal, regulatory and procedural requirements of the relevant jurisdiction. Technology does not replace legal authority or professional judgment.</p><p>Sensitive financial and personal information is handled through appropriate confidentiality and information-security procedures throughout the investigation.</p><p>Where cases involve overseas entities, payment providers, exchanges or counterparties, analytical tools can help connect information across multiple transaction environments and jurisdictions.</p><a class=\"button\" href=\"{{about}}\">View Professional &amp; Compliance Information [cfr_arrow]</a></section><section class=\"inner-editorial\"><h2>Protection of sensitive case information</h2><p>Financial fraud investigations can involve personal identification, account records, transaction histories, communications and commercially sensitive information.</p><p>The use of analytical technology does not remove the need for strict information governance. Case information should be handled through appropriate confidentiality, data-protection and information-security procedures.</p></section><section class=\"inner-editorial\"><h2>Following the transaction trail</h2><p>Financial and blockchain records can contain extensive information about the movement of funds.</p><p>Our investigative systems help process available transaction data, identify relationships and reconstruct relevant transaction paths, allowing investigators to examine complex financial movements more efficiently.</p></section><section class=\"inner-editorial\"><h2>Clear findings. Considered next steps.</h2><p>AI can identify patterns and relationships within available data, but it cannot guarantee that funds will be recovered.</p><p>The purpose of the initial assessment is to establish what the evidence supports, which recovery mechanisms may be relevant and what limitations apply.</p><p>AI-generated analytical findings are reviewed within the broader investigative context before any recovery strategy is considered.</p></section>"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "content": "<div class=\"faq-list\"><details><summary>Can AI guarantee recovery?</summary><p>AI can identify patterns and relationships within available data, but it cannot guarantee that funds will be recovered.</p></details><details><summary>Does technology replace investigator judgment?</summary><p>AI-generated analytical findings are considered within the applicable legal, regulatory and procedural requirements of the relevant jurisdiction. Technology does not replace legal authority or professional judgment.</p></details><details><summary>What information is examined?</summary><p>We examine transaction records, payment confirmations, account documentation, wallet information, communications and other available evidence.</p></details><details><summary>What happens before formal engagement?</summary><p>Where further work is appropriate, the proposed scope, process and applicable terms should be established before formal engagement.</p></details><details><summary>How is sensitive information handled?</summary><p>The use of analytical technology does not remove the need for strict information governance. Case information should be handled through appropriate confidentiality, data-protection and information-security procedures.</p></details><details><summary>Do previous results guarantee my outcome?</summary><p>Each case should be evaluated independently. Previous results do not establish or guarantee the outcome of another matter.</p></details></div>"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "content": "<div class=\"contact-intro-grid\"><div><section class=\"inner-editorial\"><h2>Submit your case for confidential review</h2><p>Provide the essential facts surrounding the financial loss, together with the transaction information and supporting evidence available to you.</p><p>Our AI-assisted investigation systems can help structure complex case information, identify relevant transaction relationships and support the forensic assessment of the available evidence.</p><a class=\"button\" href=\"{{contact}}#case-form\">Request a Confidential Case Assessment [cfr_arrow]</a></section></div><aside class=\"contact-photo\">[cfr_image name=\"review\"]<p class=\"image-caption\">Evidence · Human review</p></aside></div>[cfr_case_form]"
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "content": "<article class=\"legal-draft\"><aside class=\"editorial-note legal-status\"><p>EDITABLE DRAFT — complete the marked fields and obtain appropriate review before publication.</p></aside><div class=\"legal-sections\"><section><span class=\"legal-index\">01</span><div><h2>Who operates this website</h2><p>FUNDS RETURN is the platform name. The entity responsible for this website and personal data is [ADD LEGAL ENTITY, REGISTERED ADDRESS AND COUNTRY]. Privacy contact: [ADD OFFICIAL PRIVACY EMAIL]. Effective date: [ADD DATE]. These details must be completed by the operator.</p></div></section><section><span class=\"legal-index\">02</span><div><h2>Information submitted through the website</h2><p>The Contact form collects your name, email address, optional telephone number, a short case summary and acknowledgement. Do not submit passwords, private keys, seed phrases, authentication codes, account access or other confidential credentials. The form does not accept file uploads.</p></div></section><section><span class=\"legal-index\">03</span><div><h2>Why information is used</h2><p>Enquiry information is used to respond, understand the reported circumstances and consider whether a further assessment is appropriate. Sending an enquiry does not start a formal engagement or guarantee a result. The operator must identify the applicable legal basis for each use: [ADD PURPOSES AND LEGAL BASES].</p></div></section><section><span class=\"legal-index\">04</span><div><h2>Form delivery and service providers</h2><p>The theme sends the enquiry through the WordPress email system to the configured recipient. It does not create a case-record database. Hosting, email providers, plugins and later case-handling systems may retain separate records. The operator must identify the actual recipients and providers: [ADD RECIPIENTS AND PROVIDERS].</p></div></section><section><span class=\"legal-index\">05</span><div><h2>Cookies and external resources</h2><p>A language preference cookie stores EN, FR, NL or DE for 30 days when selected. A keyed hash of the connection IP supports a three-minute form rate limit; the theme does not retain the raw IP for that limit. Google Fonts may receive connection information while external fonts are enabled. This theme includes no analytics or advertising integration. The operator must disclose any additional host or plugin technologies: [ADD OTHER COOKIES AND SERVICES, IF ANY].</p></div></section><section><span class=\"legal-index\">06</span><div><h2>Retention and international handling</h2><p>Enquiries, correspondence, provider logs and subsequent case information may have different retention requirements. The operator must specify retention periods or criteria, deletion procedures, processing locations and any cross-border safeguards: [ADD RETENTION, LOCATIONS AND TRANSFER DETAILS]. No retention period for case records has been supplied.</p></div></section><section><span class=\"legal-index\">07</span><div><h2>Security and case analysis</h2><p>Access to enquiries should be restricted to authorised recipients. No website or email system can promise absolute security. The website form forwards information for review; it does not decide whether funds can be recovered. Any later use of AI-assisted analysis, other case systems or additional data sources must be described by the operator before that processing: [CONFIRM ACTUAL CASE-HANDLING PROCESS].</p></div></section><section><span class=\"legal-index\">08</span><div><h2>Questions and requests</h2><p>Depending on applicable law, you may be able to request access, correction, deletion, restriction or other action concerning your information. Send requests to the official privacy contact above so the operator can verify and assess them. Applicable supervisory authority and complaint route: [ADD AUTHORITY AND COMPLAINT DETAILS]. This draft does not assert that a particular jurisdiction or privacy regime applies.</p></div></section><section><span class=\"legal-index\">09</span><div><h2>Updates</h2><p>The operator should update this notice when processing practices change and record the effective date. This editable draft is not a statement that the missing entity, provider or legal details have been verified.</p></div></section></div></article>"
+    },
+    {
+      "slug": "terms-of-use",
+      "title": "Terms of Use",
+      "content": "<article class=\"legal-draft\"><aside class=\"editorial-note legal-status\"><p>EDITABLE DRAFT — complete the marked fields and obtain appropriate review before publication.</p></aside><div class=\"legal-sections\"><section><span class=\"legal-index\">01</span><div><h2>Operator and scope</h2><p>These draft terms concern use of the FUNDS RETURN website. Operator: [ADD LEGAL ENTITY, ADDRESS AND COUNTRY]. Official contact: [ADD VERIFIED CONTACT EMAIL]. Effective date: [ADD DATE]. The platform name alone does not identify a licensed legal entity.</p></div></section><section><span class=\"legal-index\">02</span><div><h2>Purpose of the website</h2><p>The website describes financial investigation, forensic analysis, asset tracing and case-support services. Its information is general and is not tailored advice. Descriptions of technology or investigative methods do not establish that any particular procedure is available for your case.</p></div></section><section><span class=\"legal-index\">03</span><div><h2>Enquiries and formal engagement</h2><p>Submitting a form requests contact and does not create a client relationship or formal engagement. Where further work is appropriate, scope, responsibilities, deliverables and applicable engagement terms should be established separately before work begins.</p></div></section><section><span class=\"legal-index\">04</span><div><h2>No guaranteed outcome</h2><p>Recovery of funds or assets, a legal outcome or a specific result is not guaranteed. Availability of procedures depends on the facts, evidence, relevant parties, jurisdictions and other case-specific factors. AI supports review and does not replace professional judgment or legal authority.</p></div></section><section><span class=\"legal-index\">05</span><div><h2>Credentials and verification</h2><p>Do not provide passwords, private keys, seed phrases, authentication codes or bank or cryptocurrency account access. No representative will request direct payment to a personal account. Verify any purported request through the official contact channels before sharing confidential information or transferring funds.</p></div></section><section><span class=\"legal-index\">06</span><div><h2>Information you provide</h2><p>Provide only information you are authorised to share, describe the facts accurately and avoid unnecessary personal data about other people. Do not use the website to submit harmful material, impersonate another person, gain unauthorised access or interfere with its operation.</p></div></section><section><span class=\"legal-index\">07</span><div><h2>Fees, cancellation and refunds</h2><p>No prices, payment schedule, cancellation rights or refund policy have been supplied for this draft. These must be stated in reviewed terms before a paid engagement: [ADD APPROVED FEES, CANCELLATION AND REFUND TERMS]. Nothing here creates a recovery guarantee or an undisclosed payment obligation.</p></div></section><section><span class=\"legal-index\">08</span><div><h2>Privacy and other services</h2><p>Read the Privacy Policy for the website data-handling draft. Hosting, email and linked third-party services may have separate terms; verify any external service before providing information. [CONFIRM ANY ADDITIONAL SERVICE PROVIDERS OR LINKED SERVICES].</p></div></section><section><span class=\"legal-index\">09</span><div><h2>Applicable law, questions and changes</h2><p>Governing law and dispute forum: [ADD REVIEWED LAW AND FORUM]. Complaint contact and process: [ADD VERIFIED DETAILS]. The operator must confirm applicable mandatory rights and any additional terms with suitable review. Changes should carry a new effective date. These marked fields remain unresolved and must not be presented as approved legal terms.</p></div></section></div></article>"
+    }
+  ]
+}

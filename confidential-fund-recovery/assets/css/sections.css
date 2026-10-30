@@ -1,0 +1,446 @@
+/* Individual Home compositions, sharing the established palette and typography. */
+.home-section .section-title{display:flex;flex-direction:column;align-items:flex-start;gap:0;position:relative;margin:0 0 36px;min-width:0}
+.home-section .section-title h2{margin:0;max-width:850px}
+.home-section .section-index{display:block;order:-2;min-width:0;width:64px;align-self:flex-start;justify-self:start;padding:0;margin:0 0 18px;line-height:1.5}
+.home-section .section-index:before{display:block;width:64px;margin:0 0 12px}
+.section-symbol{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;margin:0 0 20px;border:1px solid var(--border);border-radius:14px;color:var(--copper);background:var(--white);order:-1}
+.section-symbol svg{display:block;width:27px;height:27px}
+.dark-section .section-symbol{background:var(--espresso);border-color:#F3EADF40;color:var(--orange)}
+.home-section .section-copy,.home-section .analysis-list,.home-section .evidence-panels,.home-section .process-intro,.home-section .process-list,.home-section .review-note,.home-section .section-shell>.button{margin-left:0}
+.home-section .section-title>.site-image{width:100%;margin:28px 0 0;flex-shrink:0;aspect-ratio:16/10;height:auto}
+.home-section .section-title>.site-image img{aspect-ratio:inherit}
+.home-section .service-copy{min-width:0}
+/* 01: broad visual introduction, followed by a horizontal evidence strip. */
+#financial-investigation .section-title{display:grid;grid-template-columns:1fr 1.1fr;column-gap:64px;align-items:start}
+#financial-investigation .section-index,#financial-investigation .section-symbol,#financial-investigation h2{grid-column:1}
+#financial-investigation .section-title>.site-image{grid-column:2;grid-row:1/5;margin:0;aspect-ratio:3/2}
+#financial-investigation .section-copy{max-width:900px}
+#financial-investigation .analysis-list{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--border);margin-top:40px}
+#financial-investigation .analysis-list article{padding:28px;border-bottom:1px solid var(--border);border-right:1px solid var(--border)}
+/* 02: dark standards manifesto and individually outlined commitments. */
+#professional-standards{background:var(--espresso)}
+#professional-standards .section-shell{display:grid;grid-template-columns:1fr 1.2fr;gap:24px 72px}
+#professional-standards .section-title{grid-row:1/4}
+#professional-standards .analysis-list{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:0}
+#professional-standards .analysis-list article{border:1px solid #F3EADF40;border-radius:12px;padding:24px;background:#24232250}
+#professional-standards .section-shell>.button{grid-column:2;justify-self:start}
+/* 03: centered expertise statement with a three-part typographic rhythm. */
+#expertise{text-align:center;background:var(--sand)}
+#expertise .section-title{align-items:center}
+#expertise .section-copy{max-width:950px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:16px 48px}
+#expertise .section-copy>p:first-child{grid-column:1/-1;font-size:24px;line-height:1.6}
+#expertise .section-copy>.button{grid-column:1/-1;justify-self:center}
+/* 04: network image and a light dossier on a graphite canvas. */
+#cryptocurrency{background:var(--graphite)}
+#cryptocurrency .section-shell{grid-template-columns:1fr 1fr;gap:64px}
+#cryptocurrency .section-title h2{color:var(--white)}
+#cryptocurrency .section-index{color:var(--orange)}
+#cryptocurrency .service-copy{padding:36px;border:0;border-radius:16px;background:var(--cream);color:var(--text)}
+#cryptocurrency .service-focus{color:var(--copper)}
+#cryptocurrency .check-list{grid-template-columns:1fr}
+/* 05: reversed account-records editorial with an asymmetric image edge. */
+#brokers .section-shell{grid-template-columns:1.1fr .9fr;gap:72px}
+#brokers .section-title{grid-column:2;grid-row:1}
+#brokers .service-copy{grid-column:1;grid-row:1;border:0;padding:28px 0}
+#brokers .site-image{border-radius:80px 12px 12px 12px}
+#brokers .check-list{display:block;border-top:1px solid var(--border)}
+#brokers .check-list li{padding:14px 0;border-bottom:1px solid var(--border)}
+/* 06: full-width scheme review, with a row of compact checklist cards. */
+#investment{background:var(--sand)}
+#investment .section-shell{display:block}
+#investment .section-title{max-width:780px}
+#investment .service-copy{padding:0;border:0;display:grid;grid-template-columns:1fr 1fr;gap:16px 48px}
+#investment .service-focus,#investment .check-list{grid-column:1/-1}
+#investment .check-list{grid-template-columns:repeat(3,1fr);gap:16px}
+#investment .check-list li{padding:24px;background:var(--white);border-radius:12px}
+#investment .button{justify-self:start}
+/* 07: payment tracing in a framed report, image above the copy. */
+#payment .section-shell{display:block;padding:48px;border:1px solid var(--border);border-radius:24px;background:var(--white)}
+#payment .section-title{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+#payment .section-title>.site-image{grid-column:2;grid-row:1/5;margin:0;aspect-ratio:16/10}
+#payment .service-copy{border:0;padding:0;columns:2;column-gap:48px}
+#payment .service-copy>*{break-inside:avoid}
+#payment .check-list{display:block}
+/* 08: corporate review with a cinematic image and offset content sheet. */
+#corporate{background:var(--espresso);color:var(--sand)}
+#corporate .section-shell{grid-template-columns:1.15fr .85fr;align-items:center;gap:0}
+#corporate .section-title h2{color:var(--white)}
+#corporate .section-title{padding-right:32px}
+#corporate .section-index{color:var(--orange)}
+#corporate .section-title>.site-image{aspect-ratio:4/3;border-radius:12px 0 0 12px}
+#corporate .service-copy{position:relative;margin:70px 0 0 -32px;padding:36px;background:var(--cream);color:var(--text);border:0;border-radius:12px;box-shadow:0 20px 48px #24232230}
+#corporate .service-focus{color:var(--copper)}
+/* 09: contract analysis uses a technical grid, with no additional photograph. */
+#smart-contract{background-color:var(--cream);background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:64px 64px}
+#smart-contract .section-shell{grid-template-columns:.8fr 1.2fr;gap:64px}
+#smart-contract .service-copy{padding:36px;background:var(--white);border:1px solid var(--border);border-top:4px solid var(--copper);border-radius:0 0 12px 12px}
+/* 10: inset sand assessment invitation. */
+#case-assessment{background:var(--cream);padding-block:48px}
+#case-assessment .section-shell{padding:56px;background:var(--sand);border-radius:24px;display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+#case-assessment .section-title{margin:0}
+#case-assessment .section-copy{border-left:1px solid var(--copper);padding-left:40px}
+/* 11: horizontal journey with a copper progress line. */
+#recovery-process .section-title{align-items:center;text-align:center}
+#recovery-process .process-intro{max-width:780px;text-align:center;margin:0 auto 40px}
+#recovery-process .process-list{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;border:0}
+#recovery-process .process-list li{display:block;min-width:0;margin:0;padding:36px 0 0;border-left:0;border-top:2px solid var(--copper);overflow-wrap:anywhere}
+#recovery-process .process-list li:before{position:static;display:flex;align-items:center;justify-content:center;margin:0 0 20px;transform:none}
+#recovery-process .process-list h3{font-size:21px}
+#recovery-process .process-list p{font-size:15px}
+/* 12: image-led intelligence spread with a two-by-two evidence matrix. */
+#transaction-intelligence .section-shell{display:grid;grid-template-columns:1fr 1fr;gap:32px 56px}
+#transaction-intelligence .section-title{grid-column:1/-1;margin-bottom:0}
+#transaction-intelligence .section-shell>.site-image{width:100%;height:100%;min-height:340px;margin:0;grid-column:1;grid-row:2/4}
+#transaction-intelligence .section-copy{grid-column:2}
+#transaction-intelligence .evidence-panels{grid-column:2;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0}
+#transaction-intelligence .evidence-panels article{padding:20px;border-radius:8px;border:1px solid var(--border)}
+#transaction-intelligence .review-note{grid-column:1/-1;border-left:0;border-top:2px solid var(--copper);margin:0}
+/* 13: restrained experience statement with oversized editorial typography. */
+#case-experience{background:var(--sand)}
+#case-experience .section-shell{display:grid;grid-template-columns:.7fr 1.3fr;gap:72px}
+#case-experience .section-copy{font-size:23px;line-height:1.7;border-left:1px solid var(--copper);padding:0 0 0 48px}
+/* 14: confidential case-review card with a panoramic image. */
+#case-review .section-shell{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
+#case-review .section-title>.site-image{border-radius:12px 12px 64px 12px;aspect-ratio:16/9}
+#case-review .section-copy{padding:32px;border:1px solid var(--border);border-radius:16px;background:var(--white)}
+/* 15: portrait-led human consultation, on the opposite side to case review. */
+#consultation .section-shell{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+#consultation .section-title{grid-column:2;grid-row:1}
+#consultation .section-title>.site-image{aspect-ratio:4/5;max-height:540px}
+#consultation .section-copy{grid-column:1;grid-row:1;margin:0;padding-right:32px;border-top:3px solid var(--copper);padding-top:32px}
+/* 16: compact privacy panel centered around a security symbol. */
+#confidentiality{text-align:center;background:var(--graphite);color:var(--sand)}
+#confidentiality .section-title{align-items:center}
+#confidentiality .section-title h2{color:var(--white)}
+#confidentiality .section-symbol{width:72px;height:72px;border-radius:50%;background:var(--espresso);border-color:var(--muted);color:var(--orange)}
+#confidentiality .section-symbol svg{width:36px;height:36px}
+#confidentiality .section-copy{max-width:850px;margin:auto}
+/* 17: tracing panorama followed by a three-column narrative. */
+#asset-tracing .section-title>.site-image{aspect-ratio:21/8;max-height:430px}
+#asset-tracing .section-copy{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+#asset-tracing .section-copy>p{padding-top:24px;border-top:1px solid var(--border)}
+#asset-tracing .section-copy>.button{grid-column:1/-1;justify-self:start}
+/* 18: clear assessment in a bordered, two-column espresso panel. */
+#transparent-assessment{background:var(--cream);color:var(--text)}
+#transparent-assessment .section-shell{padding:48px;border:1px solid var(--border);border-radius:12px;display:grid;grid-template-columns:1fr 1fr;gap:64px;background:var(--espresso);color:var(--sand)}
+#transparent-assessment .section-title h2{color:var(--white)}
+#transparent-assessment .section-title{margin:0}
+#transparent-assessment .section-copy{border-left:1px solid #F3EADF40;padding-left:40px}
+/* 19: full-width closing invitation and a large outline mail symbol. */
+#contact{background:var(--sand);text-align:center}
+#contact .section-shell{max-width:1000px}
+#contact .section-title{align-items:center}
+#contact .section-symbol{width:80px;height:64px;background:transparent;border:0}
+#contact .section-symbol svg{width:64px;height:64px}
+#contact .section-title h2{font-size:clamp(34px,4vw,56px)}
+#contact .section-copy{max-width:820px;margin:auto}
+#expertise .section-index,#recovery-process .section-index,#confidentiality .section-index,#contact .section-index{align-self:center}
+/* Small, one-time reveals. Nothing is hidden when JavaScript is unavailable. */
+@media(prefers-reduced-motion:no-preference){
+ .reveal-ready{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1)}
+ .reveal-ready.is-visible{opacity:1;transform:none}
+ .site-image img{transition:transform .7s ease}
+ .site-image:hover img{transform:scale(1.025)}
+}
+@media(max-width:1024px){
+ #recovery-process .process-list{grid-template-columns:repeat(3,1fr)}
+ #financial-investigation .section-title,#professional-standards .section-shell,#brokers .section-shell,#smart-contract .section-shell,#consultation .section-shell{gap:32px}
+ #investment .check-list{grid-template-columns:1fr 1fr}
+ #corporate .service-copy{padding:24px;margin-left:-16px}
+}
+@media(max-width:768px){
+ .home-section .section-title h2{font-size:32px}
+ #financial-investigation .section-title,#professional-standards .section-shell,#cryptocurrency .section-shell,#brokers .section-shell,#investment .service-copy,#payment .section-title,#corporate .section-shell,#smart-contract .section-shell,#case-assessment .section-shell,#transaction-intelligence .section-shell,#case-experience .section-shell,#case-review .section-shell,#consultation .section-shell,#transparent-assessment .section-shell{display:flex;flex-direction:column;gap:28px;align-items:stretch}
+ #financial-investigation .section-title{gap:0}
+ #financial-investigation .section-title>.site-image{margin-top:28px}
+ #financial-investigation .analysis-list{grid-template-columns:1fr}
+ #professional-standards .analysis-list{grid-template-columns:1fr 1fr}
+ #professional-standards .section-shell>.button{align-self:flex-start}
+ #expertise .section-copy{display:block}
+ #expertise .section-copy>p:first-child{font-size:21px}
+ #brokers .section-title,#brokers .service-copy,#consultation .section-title,#consultation .section-copy{order:0;grid-column:auto;grid-row:auto}
+ #investment .check-list{display:grid;grid-template-columns:1fr 1fr}
+ #payment .section-shell,#case-assessment .section-shell,#transparent-assessment .section-shell{padding:28px}
+ #payment .section-title{gap:0}
+ #payment .section-title>.site-image{margin-top:28px}
+ #payment .service-copy{columns:auto}
+ #corporate .section-title{padding:0}
+ #corporate .service-copy{margin:0;padding:28px}
+ #case-assessment .section-copy,#case-experience .section-copy,#transparent-assessment .section-copy{border-left:0;padding-left:0;border-top:1px solid var(--border);padding-top:24px}
+ #recovery-process .process-list{grid-template-columns:1fr 1fr}
+ #transaction-intelligence .section-shell>.site-image{height:300px;min-height:0}
+ #transaction-intelligence .evidence-panels{display:grid}
+ #case-experience .section-copy{font-size:20px}
+ #consultation .section-title>.site-image{max-height:420px;aspect-ratio:4/3}
+ #consultation .section-copy{padding-right:0}
+ #asset-tracing .section-title>.site-image{aspect-ratio:16/10}
+ #asset-tracing .section-copy{display:block}
+}
+@media(max-width:480px){
+ #professional-standards .analysis-list,#investment .check-list,#recovery-process .process-list,#transaction-intelligence .evidence-panels{grid-template-columns:1fr}
+ #payment .section-shell,#case-assessment .section-shell,#transparent-assessment .section-shell{padding:24px 20px}
+ #cryptocurrency .service-copy,#smart-contract .service-copy,#case-review .section-copy{padding:24px}
+ #recovery-process .process-list li{padding-top:24px}
+ #corporate .site-image{border-radius:12px}
+}
+@media print{.reveal-ready{opacity:1;transform:none}.section-symbol{display:none}}
+
+/* 2.6: consistent reading text and revised centered compositions. */
+:root{--description-font:Inter,sans-serif;--description-size:18px;--description-leading:1.8}
+.home-hero .hero-copy>p:not(.eyebrow):not(.hero-assurance),
+.home-section p,.home-section .check-list li{
+ font-family:var(--description-font)!important;font-size:var(--description-size)!important;font-weight:400;line-height:var(--description-leading)!important
+}
+.home-section .section-symbol{display:none}
+.home-section .section-index{text-align:center}
+.home-section .section-title{gap:0}
+#financial-investigation,#professional-standards,#expertise,#investment,#contact{text-align:center}
+#financial-investigation .section-shell,#professional-standards .section-shell{display:block}
+#financial-investigation .section-title,#professional-standards .section-title,#expertise .section-title,#investment .section-title,#transaction-intelligence .section-title,#contact .section-title{
+ display:flex;flex-direction:column;align-items:center;text-align:center;max-width:none;margin:0 auto 32px
+}
+#financial-investigation .section-index,#professional-standards .section-index,#investment .section-index,#transaction-intelligence .section-index{align-self:center}
+#financial-investigation .section-title>.site-image{display:none}
+#financial-investigation .section-copy,#professional-standards .section-copy,#expertise .section-copy,#investment .service-copy>p,#contact .section-copy{
+ max-width:900px;margin-inline:auto
+}
+#financial-investigation .analysis-list,#professional-standards .analysis-list{
+ display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;border:0;margin:40px auto 32px
+}
+#financial-investigation .analysis-list article,#professional-standards .analysis-list article{
+ display:flex;flex-direction:column;align-items:center;padding:32px;border:1px solid var(--border);border-radius:14px;background:var(--white)
+}
+#financial-investigation .analysis-list article>span,#professional-standards .analysis-list article>span{margin-bottom:16px}
+#financial-investigation .analysis-list article p,#professional-standards .analysis-list article p{margin:0;text-align:center}
+#professional-standards .analysis-list article{background:#24232250;border-color:#F3EADF40}
+#professional-standards .section-shell>.button{display:inline-flex}
+#expertise .section-copy{display:block}
+#expertise .section-copy>p:first-child{font-size:var(--description-size);line-height:var(--description-leading)}
+/* 05: balanced heading, account-records visual, and a clean service dossier. */
+#brokers .section-shell{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px 56px;align-items:start}
+#brokers .section-title{display:contents}
+#brokers .section-index{grid-column:1/-1;grid-row:1;margin:0 auto;align-self:center}
+#brokers h2{grid-column:1/-1;grid-row:2;text-align:center;max-width:900px;margin:auto}
+#brokers .section-title>.site-image{grid-column:1;grid-row:3;margin:0;border-radius:16px;aspect-ratio:4/3}
+#brokers .service-copy{grid-column:2;grid-row:3;padding:0;margin:0;border:0}
+#brokers .service-focus{margin-top:0}
+#brokers .check-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;border:0}
+#brokers .check-list li{padding:16px;background:var(--sand);border:0;border-radius:8px}
+/* 06: one centered introduction, equal checklist tiles and centered action. */
+#investment .service-copy{display:block;border:0;padding:0}
+#investment .check-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:32px 0;gap:20px}
+#investment .check-list li{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center}
+#investment .check-list li:before{margin-bottom:12px}
+/* 07: remove newspaper columns so the text and action remain in reading order. */
+#payment .section-shell{display:block;padding:40px}
+#payment .section-title{display:flex;align-items:center;text-align:center;max-width:none}
+#payment .section-index{align-self:center}
+#payment .section-title h2{max-width:850px;margin-inline:auto}
+#payment .section-title>.site-image{width:100%;max-height:400px;aspect-ratio:21/8;margin:28px 0 0}
+#payment .service-copy{columns:auto;display:block;padding:0;border:0;text-align:center}
+#payment .service-copy>p{max-width:900px;margin-inline:auto}
+#payment .check-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:32px 0}
+#payment .check-list li{display:flex;align-items:baseline;gap:12px;text-align:left;padding:20px;background:var(--cream);border:1px solid var(--border);border-radius:10px}
+/* 11: readable five-step sequence with space for the complete explanation. */
+#recovery-process .section-title{max-width:900px;margin-inline:auto}
+#recovery-process .process-list{display:block;max-width:1000px;margin:40px auto}
+#recovery-process .process-list li{
+ display:grid;grid-template-columns:64px minmax(0,1fr);gap:8px 28px;margin:0;padding:28px 0;border:0;border-top:1px solid #F3EADF40;overflow-wrap:normal
+}
+#recovery-process .process-list li:before{grid-column:1;grid-row:1/4;margin:0;position:static}
+#recovery-process .process-list h3,#recovery-process .process-list p{grid-column:2;grid-row:auto;margin:0;padding:0}
+#recovery-process .process-list h3{font-size:24px;margin-bottom:8px}
+#recovery-process .section-shell{text-align:center}
+#recovery-process .process-list{text-align:left}
+/* 12: centered eyebrow and title above the existing evidence spread. */
+#transaction-intelligence .section-title{grid-column:1/-1}
+/* 13: experience statement in a centered bordered editorial panel. */
+#case-experience .section-shell{display:block;max-width:1000px;padding:48px;border:1px solid var(--border);border-radius:20px;background:var(--cream);text-align:center}
+#case-experience .section-title{align-items:center;margin-bottom:28px}
+#case-experience .section-index{align-self:center}
+#case-experience .section-copy{padding:0;border:0;max-width:850px;margin-inline:auto}
+#case-experience .section-copy>p:last-of-type{padding:24px;border-radius:10px;background:var(--sand)}
+/* 15: consultation photo alongside clearly ordered engagement copy. */
+#consultation .section-shell{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:32px 56px;align-items:center}
+#consultation .section-title{display:contents}
+#consultation .section-index{grid-column:1/-1;grid-row:1;margin-inline:auto;align-self:center}
+#consultation h2{grid-column:1/-1;grid-row:2;text-align:center;max-width:900px;margin:auto}
+#consultation .section-title>.site-image{grid-column:1;grid-row:3;margin:0;aspect-ratio:4/5;max-height:520px;border-radius:16px}
+#consultation .section-copy{grid-column:2;grid-row:3;padding:0;border:0;margin:0}
+#consultation .section-copy>p:last-of-type{border-left:3px solid var(--copper);padding:16px 24px;background:var(--sand);border-radius:0 10px 10px 0}
+/* 16: centered privacy heading and two clear confidentiality commitments. */
+#confidentiality .section-title{max-width:900px;margin-inline:auto}
+#confidentiality .section-copy{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:none}
+#confidentiality .section-copy>p{margin:0;padding:32px;border:1px solid #F3EADF40;border-top:3px solid var(--orange);border-radius:12px;background:var(--espresso);text-align:left}
+/* 17: wide tracing image followed by two equal evidence explanations. */
+#asset-tracing .section-title{display:flex;align-items:center;text-align:center;max-width:none}
+#asset-tracing .section-index{align-self:center}
+#asset-tracing .section-title h2{max-width:900px;margin-inline:auto}
+#asset-tracing .section-title>.site-image{aspect-ratio:21/8;max-height:400px;border-radius:16px;margin-top:32px}
+#asset-tracing .section-copy{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#asset-tracing .section-copy>p{margin:0;padding:28px;border:1px solid var(--border);border-radius:12px;background:var(--sand)}
+/* 19: the title block and action share the same center axis. */
+#contact .section-title{width:100%;max-width:none}
+#contact .section-title h2{max-width:900px;margin-inline:auto}
+#contact .section-copy{display:block;padding:0;border:0}
+#contact .section-copy>.button{margin-inline:auto}
+@media(max-width:1024px){
+ #investment .check-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:768px){
+ #brokers .section-shell,#consultation .section-shell{display:flex;flex-direction:column;gap:28px}
+ #brokers .section-title,#consultation .section-title{display:flex;align-items:center;text-align:center;width:100%;margin:0}
+ #brokers .section-index,#consultation .section-index{margin-bottom:18px}
+ #brokers .section-title>.site-image,#consultation .section-title>.site-image{margin-top:28px;width:100%;aspect-ratio:4/3}
+ #brokers .service-copy,#consultation .section-copy{width:100%}
+ #payment .section-shell,#case-experience .section-shell{padding:28px}
+ #payment .section-title>.site-image,#asset-tracing .section-title>.site-image{aspect-ratio:16/10}
+ #confidentiality .section-copy,#asset-tracing .section-copy{grid-template-columns:1fr}
+ #financial-investigation .analysis-list article,#professional-standards .analysis-list article{padding:24px}
+ #recovery-process .process-list li{grid-template-columns:48px minmax(0,1fr);gap:8px 20px}
+}
+@media(max-width:540px){
+ #financial-investigation .analysis-list,#professional-standards .analysis-list,#investment .check-list,#payment .check-list,#brokers .check-list{grid-template-columns:1fr}
+ #payment .section-shell,#case-experience .section-shell{padding:24px 20px}
+ #confidentiality .section-copy>p,#asset-tracing .section-copy>p{padding:24px}
+ #recovery-process .process-list li{display:block}
+ #recovery-process .process-list li:before{margin-bottom:20px}
+ #recovery-process .process-list h3{margin-bottom:16px}
+ #recovery-process .process-list p+p{margin-top:16px}
+}
+
+/* Section 01: centered introduction and meaningful card symbols. */
+.home-section#financial-investigation .section-copy{width:100%;max-width:900px;margin-left:auto;margin-right:auto;text-align:center}
+.home-section#financial-investigation .section-copy>p{width:100%;max-width:none;margin-left:auto;margin-right:auto;text-align:center}
+.home-section#financial-investigation .analysis-list article>.analysis-card-icon{display:flex;align-items:center;justify-content:center;flex:none;width:48px;height:48px;padding:10px;margin:0 0 16px;border:1px solid var(--border);border-radius:12px;background:var(--cream);color:var(--copper)}
+.home-section#financial-investigation .analysis-card-icon svg{display:block;width:28px;height:28px}
+
+/* Section 02: centered description blocks and relevant card icons. */
+.home-section#professional-standards .section-copy{width:100%;max-width:900px;margin-left:auto;margin-right:auto;text-align:center}
+.home-section#professional-standards .section-copy>p{width:100%;max-width:none;margin-left:auto;margin-right:auto;text-align:center}
+.home-section#professional-standards .analysis-list article>.analysis-card-icon{display:flex;align-items:center;justify-content:center;flex:none;width:48px;height:48px;padding:10px;margin:0 0 16px;border:1px solid #F3EADF40;border-radius:12px;background:var(--graphite);color:var(--orange)}
+.home-section#professional-standards .analysis-card-icon svg{display:block;width:28px;height:28px}
+
+/* Section 03: keep the paragraph block on the heading center axis. */
+.home-section#expertise .section-copy{width:100%;max-width:900px;margin-left:auto;margin-right:auto;text-align:center}
+.home-section#expertise .section-copy>p{width:100%;max-width:none;margin-left:auto;margin-right:auto;text-align:center}
+
+/* Section 04: show the supplied portrait with a taller, balanced crop. */
+.home-section#cryptocurrency .section-title>.site-image{height:auto;aspect-ratio:4/5;margin-top:28px;border-radius:16px}
+.home-section#cryptocurrency .section-title>.site-image img{aspect-ratio:4/5;object-fit:cover;object-position:center}
+@media(max-width:768px){.home-section#cryptocurrency .section-title>.site-image{max-width:520px;margin-left:auto;margin-right:auto}}
+
+/* Section 05: editorial overview with a dedicated capability grid. */
+.home-section#brokers{background:var(--cream)}
+.home-section#brokers .section-shell{display:block;padding:0}
+.home-section#brokers .section-title{display:flex;align-items:center;flex-direction:column;max-width:none;width:100%;margin:0 auto 40px;text-align:center}
+.home-section#brokers .section-index{margin:0 auto 18px;align-self:center}
+.home-section#brokers h2{max-width:900px;margin:0 auto;text-align:center}
+.home-section#brokers .platform-overview{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border:1px solid var(--border);border-radius:20px;overflow:hidden;background:var(--espresso)}
+.home-section#brokers .platform-image{min-width:0;min-height:420px}
+.home-section#brokers .platform-image .site-image{height:100%;width:100%;margin:0;border:0;border-radius:0;aspect-ratio:auto}
+.home-section#brokers .platform-image img{height:100%;width:100%;min-height:420px;aspect-ratio:auto;object-fit:cover;object-position:center}
+.home-section#brokers .platform-intro{display:flex;flex-direction:column;justify-content:center;min-width:0;padding:40px;color:var(--sand);text-align:center}
+.home-section#brokers .platform-intro p{width:100%;max-width:none;margin:0 0 24px;text-align:center}
+.home-section#brokers .platform-intro p:last-child{margin-bottom:0}
+.home-section#brokers .platform-intro .service-focus{padding-bottom:20px;border-bottom:1px solid #F3EADF40;color:var(--orange)}
+.home-section#brokers .platform-services .check-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0;padding:0;border:0}
+.home-section#brokers .platform-services .check-list li{display:flex;align-items:center;gap:16px;min-width:0;padding:24px;border:1px solid var(--border);border-radius:12px;background:var(--white);text-align:left}
+.home-section#brokers .platform-services .check-list li:before{display:none}
+.home-section#brokers .platform-service-icon{display:flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;border-radius:12px;background:var(--sand);color:var(--copper)}
+.home-section#brokers .platform-service-icon svg{display:block;width:26px;height:26px}
+.home-section#brokers .platform-action{text-align:center;padding-top:4px}
+@media(max-width:1024px){.home-section#brokers .platform-intro{padding:28px}.home-section#brokers .platform-services .check-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:768px){.home-section#brokers .platform-overview{grid-template-columns:1fr}.home-section#brokers .platform-image{min-height:0}.home-section#brokers .platform-image .site-image{height:auto;aspect-ratio:16/10}.home-section#brokers .platform-image img{min-height:0;aspect-ratio:16/10}.home-section#brokers .platform-intro{padding:32px 24px}}
+@media(max-width:540px){.home-section#brokers .platform-services .check-list{grid-template-columns:1fr;gap:14px}.home-section#brokers .platform-services .check-list li{padding:20px}.home-section#brokers .platform-action .button{width:100%}}
+
+/* Section 09: contract forensics as a clear capability overview. */
+.home-section#smart-contract{background:var(--cream);background-image:none}
+.home-section#smart-contract .section-shell{display:block}
+.home-section#smart-contract .section-title{display:flex;flex-direction:column;align-items:center;max-width:none;margin:0 auto 32px;text-align:center}
+.home-section#smart-contract .section-index{align-self:center;margin:0 auto 18px}
+.home-section#smart-contract h2{max-width:900px;margin:0 auto;text-align:center}
+.home-section#smart-contract .service-copy{padding:0;margin:0;border:0;background:transparent;border-radius:0;text-align:center}
+.home-section#smart-contract .service-copy>p{width:100%;max-width:900px;margin:0 auto 24px;text-align:center}
+.home-section#smart-contract .service-copy>.service-focus{display:table;width:auto;max-width:100%;padding:10px 20px;border:1px solid var(--border);border-radius:30px;background:var(--sand);color:var(--copper);margin-bottom:28px}
+.home-section#smart-contract .check-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:36px 0 28px}
+.home-section#smart-contract .check-list li{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:18px;padding:28px 24px;border:1px solid var(--border);border-radius:14px;background:var(--white);text-align:center}
+.home-section#smart-contract .check-list li:before{display:none}
+.home-section#smart-contract .contract-service-icon{display:flex;align-items:center;justify-content:center;flex:none;width:48px;height:48px;border-radius:14px;background:var(--sand);color:var(--copper)}
+.home-section#smart-contract .contract-service-icon svg{display:block;width:28px;height:28px}
+/* Section 10: focused assessment invitation with two balanced explanations. */
+.home-section#case-assessment{background:var(--cream);padding-top:32px;padding-bottom:80px}
+.home-section#case-assessment .section-shell{display:block;position:relative;padding:56px;border:1px solid var(--border);border-top:3px solid var(--copper);border-radius:24px;background:var(--sand);box-shadow:0 16px 48px #24232208}
+.home-section#case-assessment .section-title{display:flex;align-items:center;flex-direction:column;max-width:none;margin:0 auto 32px;text-align:center}
+.home-section#case-assessment .section-index{align-self:center;margin:0 auto 18px}
+.home-section#case-assessment h2{max-width:800px;margin:0 auto;text-align:center;font-size:clamp(30px,3vw,42px)}
+.home-section#case-assessment .section-copy{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:none;width:100%;padding:0;margin:0;border:0;text-align:center}
+.home-section#case-assessment .section-copy>p{min-width:0;width:100%;max-width:none;margin:0;padding:28px;background:var(--cream);border:1px solid var(--border);border-radius:12px;text-align:center}
+.home-section#case-assessment .section-copy>.button{grid-column:1/-1;justify-self:center;margin:8px auto 0;max-width:100%}
+@media(max-width:1024px){.home-section#smart-contract .check-list{grid-template-columns:repeat(2,minmax(0,1fr))}.home-section#case-assessment .section-shell{padding:40px}}
+@media(max-width:768px){.home-section#case-assessment .section-copy{grid-template-columns:1fr}.home-section#case-assessment .section-shell{padding:32px 24px}}
+@media(max-width:540px){.home-section#smart-contract .check-list{grid-template-columns:1fr;gap:14px}.home-section#smart-contract .check-list li{padding:24px}.home-section#smart-contract .service-copy>.service-focus{border-radius:14px}.home-section#case-assessment .section-shell{padding:28px 20px}.home-section#case-assessment .section-copy>p{padding:24px 20px}.home-section#case-assessment .section-copy>.button{width:100%}}
+
+/* Section 13: a centered editorial case-review invitation. */
+.home-section#case-experience{background:var(--sand)}
+.home-section#case-experience .section-shell{display:block;width:calc(100% - 48px);max-width:1200px;padding:56px 64px;border:1px solid var(--border);border-top:3px solid var(--copper);border-radius:24px;background:var(--cream);box-shadow:0 16px 48px #24232208;text-align:center}
+.home-section#case-experience .section-title{display:flex;flex-direction:column;align-items:center;width:100%;max-width:none;padding:0;margin:0 auto 28px;text-align:center}
+.home-section#case-experience .section-index{align-self:center;margin:0 auto 18px}
+.home-section#case-experience h2{width:100%;max-width:850px;margin:0 auto;font-size:clamp(30px,3vw,42px);line-height:1.25;text-align:center}
+.home-section#case-experience .section-copy{display:block;width:100%;max-width:920px;margin:0 auto;padding:0;border:0;text-align:center}
+.home-section#case-experience .section-copy>p{width:100%;max-width:none;margin:0 auto 28px;text-align:center}
+.home-section#case-experience .section-copy>p:last-of-type{padding:24px 32px;border:1px solid var(--border);border-left:3px solid var(--copper);border-radius:12px;background:var(--sand);margin-bottom:28px}
+.home-section#case-experience .section-copy>.button{max-width:100%;margin:0 auto}
+@media(max-width:768px){.home-section#case-experience .section-shell{width:calc(100% - 40px);padding:36px 28px}.home-section#case-experience .section-title{margin:0 auto 28px}.home-section#case-experience .section-copy{margin:0 auto}}
+@media(max-width:480px){.home-section#case-experience .section-shell{width:calc(100% - 36px);padding:28px 20px}.home-section#case-experience .section-copy>p:last-of-type{padding:22px 20px}.home-section#case-experience .section-copy>.button{width:100%}}
+
+/* Sections 17-19: a deliberate, cohesive closing sequence. */
+.home-section#asset-tracing{background:var(--cream)}
+.home-section#asset-tracing .section-shell{display:block}
+.home-section#asset-tracing .section-title{display:flex;flex-direction:column;align-items:center;max-width:none;width:100%;margin:0 auto 28px;text-align:center}
+.home-section#asset-tracing .section-index{align-self:center;margin:0 auto 18px}
+.home-section#asset-tracing h2{max-width:900px;margin:0 auto;text-align:center}
+.home-section#asset-tracing .section-title>.site-image{width:100%;max-width:none;height:auto;max-height:none;aspect-ratio:21/8;margin:32px 0 0;border-radius:18px;border:1px solid var(--border)}
+.home-section#asset-tracing .section-title>.site-image img{aspect-ratio:21/8;object-fit:cover}
+.home-section#asset-tracing .section-copy{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;width:100%;max-width:none;margin:0;padding:0;border:0}
+.home-section#asset-tracing .section-copy>p{width:100%;min-width:0;max-width:none;margin:0;padding:32px;border:1px solid var(--border);border-radius:14px;background:var(--white);text-align:center}
+.home-section#asset-tracing .closing-card-icon,.home-section#transparent-assessment .closing-card-icon{display:flex;align-items:center;justify-content:center;width:48px;height:48px;margin:0 auto 20px;border-radius:14px;background:var(--sand);color:var(--copper)}
+.home-section#asset-tracing .closing-card-icon svg,.home-section#transparent-assessment .closing-card-icon svg{display:block;width:28px;height:28px}
+/* 18: three clearly separated findings, with room for complete descriptions. */
+.home-section#transparent-assessment{background:var(--cream);padding-top:24px}
+.home-section#transparent-assessment .section-shell{display:block;padding:48px;border:1px solid var(--espresso);border-radius:24px;background:var(--espresso);color:var(--sand)}
+.home-section#transparent-assessment .section-title{display:flex;flex-direction:column;align-items:center;max-width:none;margin:0 auto 36px;text-align:center}
+.home-section#transparent-assessment .section-index{align-self:center;margin:0 auto 18px;color:var(--orange)}
+.home-section#transparent-assessment h2{max-width:850px;margin:0 auto;text-align:center;color:var(--white);font-size:clamp(30px,3vw,42px)}
+.home-section#transparent-assessment .section-copy{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;width:100%;max-width:none;margin:0;padding:0;border:0}
+.home-section#transparent-assessment .section-copy>p{width:100%;min-width:0;max-width:none;margin:0;padding:28px 24px;border:1px solid #F3EADF30;border-radius:14px;background:var(--graphite);text-align:center}
+.home-section#transparent-assessment .closing-card-icon{background:var(--espresso);color:var(--orange);border:1px solid #F3EADF30}
+/* 19: a focused final invitation with a strong, centered contact action. */
+.home-section#contact{background:var(--sand);padding-block:80px}
+.home-section#contact .section-shell{display:block;position:relative;overflow:hidden;max-width:1200px;padding:56px 64px;border:1px solid var(--graphite);border-radius:24px;background:var(--graphite);color:var(--sand);text-align:center}
+.home-section#contact .section-shell:before{content:"";position:absolute;right:-140px;top:-180px;width:380px;height:380px;border:1px solid #F3EADF18;border-radius:50%;box-shadow:0 0 0 50px #F3EADF08;pointer-events:none}
+.home-section#contact .section-shell>div{position:relative;z-index:1}
+.home-section#contact .section-title{display:flex;align-items:center;flex-direction:column;max-width:none;margin:0 auto 28px;text-align:center}
+.home-section#contact .section-index{align-self:center;margin:0 auto 18px;color:var(--orange)}
+.home-section#contact h2{max-width:900px;margin:0 auto;text-align:center;color:var(--white);font-size:clamp(32px,3.4vw,46px);line-height:1.25}
+.home-section#contact .section-copy{display:block;width:100%;max-width:900px;margin:0 auto;padding:0;border:0;text-align:center}
+.home-section#contact .section-copy>p{width:100%;max-width:none;margin:0 auto 24px;text-align:center}
+.home-section#contact .section-copy>.button{margin:8px auto 0;max-width:100%}
+@media(max-width:1024px){.home-section#transparent-assessment .section-shell{padding:36px}.home-section#transparent-assessment .section-copy{gap:16px}.home-section#transparent-assessment .section-copy>p{padding:24px 20px}}
+@media(max-width:768px){.home-section#asset-tracing .section-title>.site-image,.home-section#asset-tracing .section-title>.site-image img{aspect-ratio:16/10}.home-section#transparent-assessment .section-copy{grid-template-columns:1fr}.home-section#transparent-assessment .section-shell{padding:32px 24px}.home-section#contact .section-shell{padding:40px 28px}.home-section#contact{padding-block:56px}}
+@media(max-width:540px){.home-section#asset-tracing .section-copy{grid-template-columns:1fr}.home-section#asset-tracing .section-copy>p{padding:28px 24px}.home-section#transparent-assessment .section-shell{padding:28px 20px}.home-section#contact .section-shell{padding:32px 22px}.home-section#contact .section-copy>.button{width:100%}}
+
+/* Sections 06/07: replace detached bullets with relevant service icons. */
+.home-section:is(#investment,#payment) .check-list li:before{display:none}
+.home-section#investment .check-list li{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:16px}
+.home-section#payment .check-list li{display:flex;align-items:center;gap:16px}
+.home-section:is(#investment,#payment) .case-service-icon{display:flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;margin:0;border-radius:12px;border:1px solid var(--border);background:var(--sand);color:var(--copper)}
+.home-section#investment .case-service-icon{background:var(--cream)}
+.home-section:is(#investment,#payment) .case-service-icon svg{display:block;width:26px;height:26px}
+.home-section:is(#investment,#payment) .case-service-label{min-width:0;max-width:100%}
+@media(max-width:540px){.home-section#payment .check-list li{align-items:center;padding:20px}}
+
+/* Section 15: match the standard eyebrow-to-heading spacing. */
+.home-section#consultation .section-shell{row-gap:18px}
+.home-section#consultation .section-index{margin-bottom:0}
+@media(max-width:768px){.home-section#consultation .section-title{gap:0}.home-section#consultation .section-index{margin-bottom:18px}}

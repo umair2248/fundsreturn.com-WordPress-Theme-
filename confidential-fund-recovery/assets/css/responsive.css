@@ -1,0 +1,132 @@
+/* Final small-screen rules; desktop compositions retain their existing sizes. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media(max-width:1024px){
+ .container,.section-shell,.header-inner>*,
+ .home-section .section-shell>*,.page-body>*{min-width:0}
+ .button{max-width:100%;white-space:normal}
+ .button .arrow-icon{flex-shrink:0}
+ .evidence-graphic ol{grid-template-columns:repeat(3,minmax(0,1fr));min-width:0}
+ .evidence-graphic li{min-width:0;overflow-wrap:anywhere}
+ .home-section[id] .check-list li{min-width:0;overflow-wrap:anywhere;-webkit-hyphens:none;hyphens:none}
+ .home-section#corporate .check-list{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:768px){
+ :root{--description-size:clamp(16px,2.2vw,17px);--description-leading:1.7}
+ body{font-size:16px;line-height:1.7}
+ main h1,main h2,main h3,.footer-firm{overflow-wrap:anywhere;-webkit-hyphens:none;hyphens:none}
+ main p,main li,.button,.primary-menu a{overflow-wrap:anywhere}
+ .home-hero{width:100%;max-width:100%;grid-template-columns:minmax(0,1fr);padding:40px 20px;gap:32px}
+ .home-hero .hero-copy,.home-hero .evidence-graphic{min-width:0;max-width:100%}
+ .home-hero h1{font-size:clamp(30px,5.6vw,40px);line-height:1.16;letter-spacing:-.035em}
+ .home-hero .hero-copy>p:not(.eyebrow):not(.hero-assurance){font-size:var(--description-size)!important;line-height:1.7!important}
+ .home-hero .eyebrow{font-size:10px;line-height:1.7;letter-spacing:.12em}
+ .hero-assurance{font-size:11px;line-height:1.7;margin-top:24px;padding-top:24px}
+ .button-row{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+ .button-row .button{width:100%;margin:0}
+ .button{font-size:14px;line-height:1.5;min-height:48px;padding:14px 18px;gap:12px;text-align:center}
+ .home-section[id] h2,.home-section[id] .section-title h2,
+ .inner-editorial h2,.assessment-intro h2{font-size:clamp(26px,4.2vw,32px)!important;line-height:1.25;letter-spacing:-.025em}
+ .home-section[id] h3,.process-list h3{font-size:clamp(20px,3vw,23px);line-height:1.35}
+ .home-section[id] .section-title{min-width:0}
+ .home-section[id] .section-copy,.home-section[id] .service-copy{min-width:0;max-width:100%}
+ .home-section[id] .check-list{min-width:0}
+ .home-section[id] .check-list li{min-width:0}
+ .home-section[id] .section-copy>p,.home-section[id] .service-copy>p{max-width:100%}
+ .home-section#consultation .section-copy{margin-left:0;margin-right:0}
+ .home-section#case-experience .section-copy{margin-left:auto;margin-right:auto}
+ .home-section[id] .section-shell .button{max-width:100%}
+ .home-section#brokers .platform-services .check-list li,
+ .home-section#payment .check-list li{align-items:center}
+ .home-section#brokers .platform-service-icon,
+ .home-section#payment .case-service-icon{flex-shrink:0}
+ .page-banner{padding:36px 0}
+ .page-banner h1{font-size:clamp(30px,5vw,38px);line-height:1.2}
+ .page-body{padding-top:36px;padding-bottom:44px}
+ .page-body p,.inner-editorial p,.assessment-intro p,
+ .case-form .field-help{font-size:16px;line-height:1.7}
+ .contact-intro-grid{gap:28px;margin-bottom:32px}
+ .contact-photo{min-width:0}
+ .faq-list summary{font-size:18px;line-height:1.5;padding-right:28px;overflow-wrap:anywhere}
+ .faq-list details p{font-size:16px;line-height:1.7}
+ .legal-sections>section{grid-template-columns:28px minmax(0,1fr);gap:14px;padding:24px 0}
+ .legal-sections h2{font-size:23px;line-height:1.35}
+ .legal-sections p,.legal-status{font-size:16px;line-height:1.7}
+ .assessment-panel{grid-template-columns:minmax(0,1fr);padding:28px 22px;gap:28px}
+ .case-form,.assessment-panel>div{min-width:0;max-width:100%}
+ .case-form input:not([type=checkbox]),.case-form textarea,.case-form select{font-size:16px;width:100%;min-width:0;max-width:100%}
+ .case-form .button{width:100%}
+ .site-footer{padding-top:40px}
+ .footer-masthead{margin-bottom:28px;padding-bottom:28px}
+ .footer-masthead>div{min-width:0}
+ .footer-masthead .button{width:100%;max-width:100%;margin-top:24px}
+ .footer-firm{font-size:26px}
+ .footer-grid{gap:28px}
+ .footer-grid>div{min-width:0}
+ .footer-utilities,.footer-bottom{gap:16px}
+ .footer-legal{gap:12px 24px;flex-wrap:wrap}
+ .footer-legal a{overflow-wrap:anywhere}
+ .important-notice{padding:24px 18px;font-size:12px;line-height:1.8}
+ .home-hero .site-image-hero{height:280px}
+}
+@media(max-width:540px){
+ .container,.section-shell{width:calc(100% - 36px)}
+ .header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;min-height:76px;padding-block:12px}
+ .site-branding{min-width:0;max-width:100%}
+ .brand{gap:8px;max-width:100%}
+ .brand>span{min-width:0}
+ .brand-symbol{width:30px;height:30px;flex-basis:30px}
+ .brand-name{font-size:13px;line-height:1.25;letter-spacing:0}
+ .brand-subtitle{font-size:9px;line-height:1.5;max-width:220px}
+ .custom-logo{max-width:100%;max-height:50px;width:auto;object-fit:contain}
+ .menu-toggle{min-height:44px;padding:10px 12px;font-size:12px;white-space:nowrap}
+ .site-navigation{grid-column:1/-1;min-width:0;width:100%;max-height:65svh;overflow-y:auto}
+ .primary-menu a{font-size:16px}
+ .utility-bar .container{gap:8px}
+ .utility-bar .container>span{font-size:9px;line-height:1.4;max-width:44%}
+ .language-switcher{gap:4px}
+ .language-switcher a{min-width:28px;padding:7px 4px}
+ .language-globe{width:15px;flex-shrink:0}
+ .home-section{padding-block:44px}
+ .home-hero{padding:36px 18px}
+ .home-hero h1{font-size:clamp(30px,8vw,36px)}
+ .home-hero .evidence-graphic{padding-left:0}
+ .home-hero .site-image-hero{height:240px}
+ .home-section#investment .check-list,.home-section#payment .check-list,
+ .home-section#brokers .platform-services .check-list,
+ .home-section#smart-contract .check-list{grid-template-columns:minmax(0,1fr)}
+ .home-section[id] .section-copy>.button{width:100%}
+ .footer-grid{grid-template-columns:minmax(0,1fr)}
+ .checkbox-label{align-items:flex-start}
+ .checkbox-label input{flex-shrink:0;margin-top:6px}
+}
+
+/* Complete sticky header: utility bar + navigation, compact after scrolling. */
+.site-header-stack{position:sticky;top:0;z-index:1000;background:var(--white)}
+.site-header-stack .site-header{position:relative;top:0;z-index:auto;box-shadow:none}
+.admin-bar .site-header-stack{top:32px}
+.site-header-stack.is-compact{box-shadow:0 6px 24px #24232214}
+.site-header-stack.is-compact .header-inner{min-height:60px;padding-top:6px;padding-bottom:6px;gap:24px}
+.site-header-stack.is-compact .brand-symbol{width:34px;height:34px;flex-basis:34px}
+.site-header-stack.is-compact .brand-name{font-size:16px;line-height:1.3}
+.site-header-stack.is-compact .brand-subtitle{font-size:10px;line-height:1.4}
+.site-header-stack.is-compact .custom-logo{max-height:38px;width:auto;object-fit:contain}
+.site-header-stack.is-compact .header-cta{min-height:40px;max-width:none;flex-shrink:0;white-space:nowrap;padding:9px 16px;font-size:12px;line-height:1.5}
+.site-header-stack.is-compact .primary-menu a{min-height:40px;font-size:14px;padding-block:8px}
+.site-header-stack.is-compact .utility-bar{font-size:10px}
+.site-header-stack.is-compact .utility-bar .container{min-height:28px}
+.site-header-stack.is-compact .utility-bar .language-switcher{font-size:11px}
+.site-header-stack.is-compact .utility-bar .language-switcher a{min-height:24px;padding:3px 6px;line-height:1.5}
+.site-header-stack.is-compact .utility-bar .language-globe{width:15px;height:15px}
+@media(max-width:1024px){.site-header-stack.is-compact .header-inner{gap:10px}.site-header-stack.is-compact .menu-toggle{min-height:44px;padding:10px 12px}.site-header-stack.is-compact .site-navigation{padding-top:8px;max-height:60svh;overflow-y:auto}}
+@media(max-width:782px){.admin-bar .site-header-stack{top:46px}}
+@media(max-width:768px){.site-header-stack.is-compact .header-inner{min-height:54px;padding-top:5px;padding-bottom:5px}.site-header-stack.is-compact .brand-symbol{width:28px;height:28px;flex-basis:28px}.site-header-stack.is-compact .brand-name{font-size:13px}.site-header-stack.is-compact .brand-subtitle{display:none}.site-header-stack.is-compact .utility-bar .container{justify-content:flex-end;min-height:26px}.site-header-stack.is-compact .utility-bar .container>span{display:none}.site-header-stack.is-compact .custom-logo{max-height:32px}}
+@media(max-width:600px){.admin-bar .site-header-stack{top:0}}
+@media print{.site-header-stack,.admin-bar .site-header-stack{position:static;box-shadow:none}}
+@media(prefers-reduced-motion:no-preference){
+ .site-header-stack .header-inner{transition:min-height .2s ease,padding .2s ease}
+ .site-header-stack .brand-symbol{transition:width .2s ease,height .2s ease,flex-basis .2s ease}
+}
+
+/* Disable automatic syllable dashes at every viewport, including iOS Safari. */
+body,body *{-webkit-hyphens:none!important;-ms-hyphens:none!important;hyphens:none!important}
+@media(max-width:1024px){main h1,main h2,main h3{word-break:normal!important;overflow-wrap:anywhere!important}main .home-hero h1{overflow-wrap:break-word!important}}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": {"contentSize": "800px", "wideSize": "1200px"},
+    "color": {"custom": true, "palette": [
+      {"slug":"navy","name":"Dark espresso","color":"#332A25"},
+      {"slug":"dark-navy","name":"Graphite","color":"#242322"},
+      {"slug":"deep-teal","name":"Deep copper links","color":"#9C472B"},
+      {"slug":"teal","name":"Deep copper actions","color":"#9C472B"},
+      {"slug":"soft-teal","name":"Warm sand","color":"#F3EADF"},
+      {"slug":"gold","name":"Burnt orange","color":"#D87952"},
+      {"slug":"background","name":"Soft cream","color":"#FBF8F3"},
+      {"slug":"white","name":"White","color":"#FFFFFF"},
+      {"slug":"text","name":"Main text","color":"#282522"},
+      {"slug":"muted","name":"Muted text","color":"#756D65"},
+      {"slug":"border","name":"Borders","color":"#E6DED4"},
+      {"slug":"success","name":"Deep copper status","color":"#9C472B"},
+      {"slug":"warning","name":"Burnt orange status","color":"#D87952"},
+      {"slug":"error","name":"Deep copper alert","color":"#9C472B"}
+    ]},
+    "typography": {"fontFamilies": [{"slug": "body", "name": "Inter", "fontFamily": "Inter, sans-serif"}, {"slug": "heading", "name": "Manrope", "fontFamily": "Manrope, sans-serif"}]},
+    "spacing": {"units": ["px", "rem", "%", "vw"]}
+  }
+}
